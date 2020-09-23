@@ -13,10 +13,10 @@
     text-align: center;
 }
 
-/* .blc-span{
-    padding: 100px 5px;
+.blc-span{
+    font-size: 30px;
 
-} */
+}
 .exp-container{
     display: flex;
     justify-content: space-around;
