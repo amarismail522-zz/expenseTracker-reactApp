@@ -23,7 +23,7 @@ export const AddTransaction = () => {
 
     return (
         <div>
-            <h3>Add Transaction</h3>
+            <h3 className="text-center">Add Transaction</h3>
           <hr/>
 
           <form className="transaction-form" 

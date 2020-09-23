@@ -26,7 +26,7 @@ export const Balance = () => {
 
     return (
         <div>
-            <h3 className="blc">Your Balance <br/> 
+            <h3 className="blc text-center">Your Balance <br/> 
             <span className="blc-span">
             ${getIncome() + getExpense()} 
             </span>
