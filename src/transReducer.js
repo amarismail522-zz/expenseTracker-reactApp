@@ -1,4 +1,3 @@
-
 const TransactionReducer = ((state, action) => {
     switch(action.type){
         case "Add_Trans": {
