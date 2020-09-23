@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.container {
+    max-width: 400px;
+    min-height: 450px;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+    box-shadow: 0 0 50px gainsboro;
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-center{
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* .blc-span{
+    padding: 100px 5px;
+
+} */
+.exp-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px ;
+    margin-top: 20px;
+
+}
+
+.income{
+    color: green;
+}
+.expense{
+    color: red;
+}
+
+.transaction-form{
+    margin-top: 15px;
+
+}
+
+.transaction-form input{
+    width: 95%;
+    margin: 10px 0px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+
+
+}
+
+.transaction-list{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.transaction-list > li{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px gainsboro;
+    background-color: white ;
+    padding: 12px;
+    margin-top: 5px;
+
+}
+
+.btn{
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.del-btn {
+    cursor: pointer;
+    background-color: palevioletred;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    
+   
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
