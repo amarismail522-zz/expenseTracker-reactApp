@@ -5,8 +5,8 @@ import {TransactionsContext} from '../transContext';
 
 export const AddTransaction = () => {
 
-    let {transactions, addTransaction} = useContext(TransactionsContext)
-    let [newDesc, setDesc] = useState("");
+    let { addTransaction } = useContext(TransactionsContext)
+    let [newDesc, setDesc] = useState(""); 
     let [newAmount, setAmount] = useState(0);
 
 
